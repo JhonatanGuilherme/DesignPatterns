@@ -2,23 +2,40 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Escola {
-  private static List<Curso> cursos = new ArrayList<Curso>();
+  private String nome;
+  private List<Turma> turmas = new ArrayList<Turma>();
 
-  public static Curso getCurso(int codigo) {
-    for (Curso curso : cursos) {
-      if (curso.getCodigo() == codigo) {
-        return curso;
+  public String getNome() {
+    return this.nome;
+  }
+
+  public void setNome(String nome) {
+    this.nome = nome;
+  }
+
+  public Curso getCurso(int codigo) {
+    for (Turma turma : this.turmas) {
+      if (turma.getCurso().getCodigo() == codigo) {
+        return turma.getCurso();
       }
     }
 
     return null;
   }
 
-  public static void addCurso(Curso curso) {
-    cursos.add(curso);
+  public void addTurma(Turma turma) {
+    this.turmas.add(turma);
   }
 
-  public static void getAluno(int matricula) {
-    
+  public Aluno getAluno(String matricula) {
+    for (Turma turma : turmas) {
+      for (Aluno aluno : turma.getAlunos()) {
+        if (aluno.getMatricula() == matricula) {
+          return aluno;
+        }
+      }
+    }
+
+    return null;
   }
 }

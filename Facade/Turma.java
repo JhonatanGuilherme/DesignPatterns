@@ -16,4 +16,8 @@ public class Turma {
   public void addAluno(Aluno aluno) {
     this.alunos.add(aluno);
   }
+
+  public List<Aluno> getAlunos() {
+    return this.alunos;
+  }
 }
