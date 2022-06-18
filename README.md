@@ -18,17 +18,9 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="#computer-conceitos-gerais">Padrões de projetos</a>&nbsp;&nbsp;&nbsp;●&nbsp;&nbsp;
-  <a href="#hammer_and_wrench-tecnologias-utilizadas">Tecnologias</a>&nbsp;&nbsp;&nbsp;●&nbsp;&nbsp;
-  <a href="#bookmark_tabs-licença">Licença</a>
-</p>
+> Reviews of classes and codes made during the course of Design Patterns.
 
-## 
-
-> Revisões de aulas e códigos feitos durante a disciplina de Métodos Numéricos.
-
-## **💻 Padrões de projetos estudados**
+## **💻 Studied design patterns**
 
 - [X] Adapter
 - [X] Facade
@@ -46,17 +38,17 @@
 - [X] Prototype
 - [ ] Memento
 
-## **🛠️ Tecnologias utilizadas**
+## **🛠️ Technologies used**
 
-As seguintes ferramentas foram usadas:
+The following technologies were used:
 
 - **[C++](https://www.cplusplus.com/)**
 - **[Java](https://www.oracle.com/br/java/)**
 - **[Python3](https://www.python.org/)**
 - **[VS Code](https://code.visualstudio.com/)**
 
-## **📑 Licença**
+## **📑 License**
 
-Este projeto está sob a licença MIT. Vejo o arquivo **[LICENSE](https://github.com/JhonatanGuilherme/NumericalMethods/blob/master/LICENSE)** para mais detalhes.
+This project is under the MIT license. See the **[LICENSE](./LICENSE)** file for more details.
 
-Feito com 🧡 por **[Jhonatan Oliveira](https://github.com/JhonatanGuilherme)**.
+Made with 🧡 by **[Jhonatan Oliveira](https://github.com/JhonatanGuilherme)**.
