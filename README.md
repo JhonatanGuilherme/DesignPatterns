@@ -1,5 +1,5 @@
 <h1 align="center">
-    Design Patterns
+    <img alt="design_patterns_gif" src="./design_patterns.gif">
 </h1>
 
 <p align="center">
